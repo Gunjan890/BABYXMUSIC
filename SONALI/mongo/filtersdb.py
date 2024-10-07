@@ -1,4 +1,4 @@
-from SONALI.utils.mongo import db
+from PURVIMUSIC.utils.mongo import db
 
 filters = db.filters["filters"] 
 
