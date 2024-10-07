@@ -1,7 +1,7 @@
 import re
 from SONALI import app
 from config import BOT_USERNAME
-from SONALI.utils.sonali_ban import admin_filter
+from SONALI.utils.RAUSHAN_ban import admin_filter
 from SONALI.mongo.filtersdb import *
 from SONALI.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from SONALI.utils.yumidb import user_admin
