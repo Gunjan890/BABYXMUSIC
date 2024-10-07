@@ -1,5 +1,5 @@
 import requests
-from ANNIEMUSIC import app as Checker
+from SONALI import app as Checker
 from pyrogram import filters
 
 VALID_COUNTRY_CODES = [
