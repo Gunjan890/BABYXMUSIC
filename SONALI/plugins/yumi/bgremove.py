@@ -2,7 +2,7 @@ import os
 import aiohttp
 import aiofiles
 from aiohttp import ContentTypeError
-from PURVIMUSIC import app as app
+from SONALI import app as app
 from pyrogram import filters
 
 def check_filename(filroid):
