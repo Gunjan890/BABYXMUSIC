@@ -1,6 +1,6 @@
-from SONALI.utils.mongo import db
+from PURVIMUSIC.utils.mongo import db
 
-#from SONALI.mongo import *# back...............
+#from PURVIMUSIC.mongo import *# back...............
 
 notes = db.notes["notes"]
 
