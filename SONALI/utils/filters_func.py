@@ -3,7 +3,7 @@ from SONALI import app
 from pyrogram.types import InlineKeyboardMarkup, Message
 from SONALI.utils.msg_types import button_markdown_parser
 from SONALI.utils.notes_func import NoteFillings
-from RAUSHAN import decode
+from emojis import decode
 from pyrogram.types import Message
 
 
