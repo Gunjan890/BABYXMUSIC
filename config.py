@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_ISTKHAR_ll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","II_apna_gunjan_II")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","purvi_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME","baby_x_music_bot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7445883361))
+OWNER_ID = int(getenv("OWNER_ID", 7511932060))
 
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/istkharalam62/PURVI",
+    "https://github.com/Gunjan890/BABYXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+D_gPPokGlNVkNjU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+TkkVwWjSqWc5MDc1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+TkkVwWjSqWc5MDc1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
