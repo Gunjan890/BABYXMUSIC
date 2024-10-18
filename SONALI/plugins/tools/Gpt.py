@@ -1,12 +1,11 @@
-import os
-from gtts import gTTS
+import random
+import time
 import requests
-from pyrogram import filters
-from pyrogram.enums import ChatAction, ParseMode
 from SONALI import app
-import g4f
-from langdetect import detect
-from googletrans import Translator
+from config import BOT_USERNAME
+
+from pyrogram.enums import ChatAction, ParseMode
+from pyrogram import filters
 
 API_URL = "https://sugoi-api.vercel.app/search"
 
