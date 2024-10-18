@@ -33,7 +33,7 @@ async def chatbots( Message):
         return
     await m.reply_text(output['parts'][0]['text'] if model == "gemini" else output)
 
-async def askAboutImage(_, m: t.Message, mediaFiles: list, prompt: str):
+async def askAboutImage( Message, mediaFiles: list, prompt: str):
     images = []
     for media in mediaFiles:
         image = await _.download_media(media.file_id, file_name=f'./downloads/{m.from_user.id}_ask.jpg')
