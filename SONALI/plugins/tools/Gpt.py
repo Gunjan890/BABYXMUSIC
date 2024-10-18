@@ -8,7 +8,7 @@ from pyrogram.enums import ChatAction, ParseMode
 from pyrogram import filters
 
 @app.on_message(filters.command(["gpt", "bard", "llama", "mistral", "palm", "gemini"]))
-async def chatbots(_, m: t.Message):
+async def chatbots( Message):
     prompt = getText(m)
     media = getMedia(m)
     if media is not None:
