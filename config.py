@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7511932060))
+OWNER_ID = int(getenv("OWNER_ID", 7748155004))
 
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+_7fUq9ZVvW0zOWZl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+_7fUq9ZVvW0zOWZl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+YOIkTivyXMgxNzFl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+YOIkTivyXMgxNzFl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
