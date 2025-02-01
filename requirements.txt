@@ -28,6 +28,7 @@ gpytranslate
 MukeshAPI
 search_engine_parser
 googlesearch-python
+youtube-search-python
 spotipy
 telegraph
 speedtest-cli
@@ -39,5 +40,5 @@ yt-dlp
 bing_image_downloader
 git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
-git+https://github.com/Vivekkumar-IN/TheApi@main
 bing-image-urls
+git+https://github.com/TEAMPURVI/PurviAPI
