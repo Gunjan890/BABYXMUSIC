@@ -51,5 +51,9 @@ async def init():
     LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗜𝗦𝗧𝗞𝗛𝗔𝗥♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
 
+
+
 if __name__ == "__main__":
+    keep_alive()  # Start the web server for Render
     asyncio.get_event_loop().run_until_complete(init())
+    
