@@ -1,3 +1,5 @@
+
+flask
 aiofiles
 aiohttp
 #asyncio==3.4.3
@@ -41,4 +43,8 @@ bing_image_downloader
 git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
 bing-image-urls
+Cloudscraper
 git+https://github.com/TEAMPURVI/PurviAPI
+
+
+
