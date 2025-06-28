@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 import requests
 import json
-from SACHIN_MUSIC import app
+from SONALI import app
 
 def send_message(message, text):
     message.reply_text(text)
