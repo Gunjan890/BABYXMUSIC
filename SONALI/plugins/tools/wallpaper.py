@@ -4,11 +4,11 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from AvishaRobot import pbot
+from SONALI import pbot
 
 @pbot.on_message(filters.command(["wall", "wallpaper"]))
 async def wall(_, message: Message):
-    "⬤ ғɪxᴇᴅ ᴡᴀʟʟ ʙʏ ᴍᴀʜᴛᴏ ᴀɴᴊᴀʟɪ "
+    "⬤ ғɪxᴇᴅ ᴡᴀʟʟ ʙʏ GUNJAN SINGH "
     try:
         text = message.text.split(None, 1)[1]
     except IndexError:
@@ -21,7 +21,7 @@ async def wall(_, message: Message):
         ran = random.randint(0, 3)
         await message.reply_photo(
             photo=url[ran]["imageUrl"],
-            caption=f"⬤ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ 🫧⏤͟͟͞ـﮩ♡︎ ˹Ҩ፝֟፝ɴ ꫝɴᴊᴀʟɪ˼ [🇮🇳] ",
+            caption=f"⬤ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ Gunjan Singh 🇮🇳] ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("ʟɪɴᴋ", url=url[ran]["imageUrl"])],
