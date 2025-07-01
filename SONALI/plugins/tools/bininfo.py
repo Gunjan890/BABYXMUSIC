@@ -1,8 +1,8 @@
-from AvishaRobot import *
+from SONALI import *
 from pyrogram import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.types import *
-from AvishaRobot import pbot as app 
+from SONALI import pbot as app 
 
 EVAA = [
     [
