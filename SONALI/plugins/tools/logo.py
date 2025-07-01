@@ -5,9 +5,9 @@ import random
 
 import requests
 from PIL import Image, ImageDraw, ImageFont
-from AvishaRobot.modules.nightmode import button_row
-from AvishaRobot import BOT_USERNAME, OWNER_ID,BOT_NAME, SUPPORT_CHAT, telethn
-from AvishaRobot.events import register
+from SONALI.modules.nightmode import button_row
+from SONALI import BOT_USERNAME, OWNER_ID,BOT_NAME, SUPPORT_CHAT, telethn
+from SONALI.events import register
 
 LOGO_LINKS = [
     "https://telegra.ph/file/d1838efdafce9fe611d0c.jpg",
@@ -435,7 +435,7 @@ async def lego(event):
     quew = event.pattern_match.group(1)
     if event.sender_id != OWNER_ID and not quew:
         await event.reply(
-            "๏`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙᴇ​ !`\n๏`ᴇxᴀᴍᴘʟᴇ /logo <🫧⏤͟͟͞ـﮩ♡︎ ˹Ҩ፝֟፝ɴ ꫝɴᴊᴀʟɪ˼ [🇮🇳] >`"
+            "๏`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙᴇ​ !`\n๏`ᴇxᴀᴍᴘʟᴇ /logo <🫧 Gunjan [🇮🇳] >`"
         )
         return
     pesan = await event.reply("🧨")
