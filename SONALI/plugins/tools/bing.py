@@ -1,4 +1,4 @@
-from AvishaRobot import pbot as app 
+from SONALI import pbot as app 
 import requests as r
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram import filters 
