@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
 import random
-from AvishaRobot import pbot as app
+from SONALI import pbot as app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/TheAnjaliRobot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Taramusicrobot?startgroup=true"),
     ],
 ]
 
