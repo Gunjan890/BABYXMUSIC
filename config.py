@@ -15,9 +15,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","II_gunjan_singh_II")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","irotechmusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME","Taramusicrobot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME","IRO MUSIC")
+BOT_NAME = getenv("BOT_NAME","TARA MUSIC")
 # ---------------------------------------------------------
 
 
@@ -27,7 +27,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002302005857))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002388010839))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 7049747628))
@@ -49,7 +49,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN","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")  # Fill this variable if your upstream repository is private
+    "GIT_TOKEN", None )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
