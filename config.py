@@ -41,9 +41,8 @@ PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-API_URL = getenv("API_URL", 'https://panel.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", '30DxNexGenBotsc4fefa') # youtube song api key
-
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", '30DxNexGenBotsbe462b') # youtube song api key
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Gunjan890/BABYXMUSIC",
