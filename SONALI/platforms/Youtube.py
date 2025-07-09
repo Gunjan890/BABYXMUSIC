@@ -34,8 +34,8 @@ def cookie_txt_file():
     return f"""cookies/{str(cookie_txt_file).split("/")[-1]}"""
 
 
-YOUR_API_KEY = "CtFbvBpJso0rYZe5wCZhsXco482AaT8D"
-MUSIC_API_BASE_URL = "https://painful-bobolink-botdeploy99-0cf84a94.koyeb.app/api"
+YOUR_API_KEY = "30DxNexGenBotsbe462b"
+MUSIC_API_BASE_URL = "https://api.thequickearn.xyz"
 
 async def get_audio_stream_from_api(query: str):
     """Get audio stream URL from our Music Stream API with API key"""
